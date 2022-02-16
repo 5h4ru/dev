@@ -1,5 +1,24 @@
+:root{
+  --col-bg: #FFFFFF;
+  --col-text: #444444;
+  --col-theme: #3474CE;
+  --col-stroke-1: #BBBBBB;
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --col-bg: #121212;
+    --col-text: #E6E6E6;
+    --col-theme: #719DDC;
+    --col-stroke-1: #777777;
+
+  }
+}
+
 html,
 body {
+  background-color: var(--col-bg);
+  color: var(--col-text);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
